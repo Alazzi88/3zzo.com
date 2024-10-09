@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  width: 100%;
+  margin-top: 20px;
+  background: #fff;
+  transition: 1s ease-in-out;
+  flex-direction: column;
+}
+
+
+.footer span {
+  margin-top: 100px;
+  font-weight: bold;
+  color: transparent;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+}
+
+.footer .info {
+  font-weight: 400;
+  color: #080808;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+
+
+.footer .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.footer a {
+  color: #080808;
+  transition: .4s ease-in-out;
+}
+
+
+
+

@@ -1,0 +1,120 @@
+.zzz{
+  margin: 200px auto;
+  padding: 10px ;
+  width: 100%;
+  text-align: center;
+
+}
+h1{
+  font-size: 33px;
+  margin: 50px;
+}
+h3{
+font-size: 20px;
+  margin-top: 50px;
+}
+span{
+  margin-top: 30px;
+  color: red;
+  font-size: 30px;
+}
+li{
+  
+  width: 100%;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.34);
+  color: rgb(239, 119, 14);
+}
+
+.ind{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.imgind{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  display:flex ;
+  margin: 100px auto;
+  background-color: white;
+}
+
+
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin: auto;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.svgIcon {
+  width: 16px;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.Btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.Btn:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+
+
+
+p{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  color: rgb(244, 241, 241);
+margin: 50px auto;
+}
+.pay{
+  border-radius: 50%;
+width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(16, 16, 16, 0.62);
+  opacity: 1;
+}
+
+

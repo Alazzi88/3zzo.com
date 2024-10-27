@@ -1,0 +1,6 @@
+@media screen and (max-width: 700px) {
+  .flex {
+    display: block;
+    border-radius: 15px;
+  }
+}

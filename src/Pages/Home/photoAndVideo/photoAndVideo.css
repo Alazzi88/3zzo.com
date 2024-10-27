@@ -1,0 +1,10 @@
+video{
+  border: 1px solid lightblue;
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  border-image-repeat: round;
+ }
